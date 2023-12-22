@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth@75&family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
+main {
+  /* Fix the size of your design before you do anything else */
+  width: 783px;
+  height: 465px;
+  margin: auto;
+  border: 3px  #cecece;
+  position:relative;
+  top: 75px;
+}
+
+p{
+  margin:0;
+}
+
+.background {
+  display:flex;
+  justify-content: center;
+}
+.bottle{
+  width:783px;
+}
+.bottle_cover{
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  z-index: 1;
+}
+
+.forest_background{
+  width: 783px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.label{
+  position:absolute;
+  top:40px;  
+  right: 150px;
+  z-index: 2;
+  background-color: white;
+  border-radius: 3px;
+  padding:5px;
+}
+
+.label p{
+  font-family: 'Vina Sans';
+  font-size: 20px;
+  color: #012d01;
+  line-height:1;
+}
+
+.label .hundred{
+  font-size:40px;
+  transform: scale(1,1.125)
+}
+
+sup{
+  position: relative;
+  top:0;
+  font-size: 20px;
+}
+
+.pack24{
+  position: absolute;
+  top: 250px;
+  right: 15px;
+  z-index: 2;
+  color:#ffffff;
+  font-family:'Roboto';
+  font-weight: 700;
+  display:flex;
+  align-items: center;
+  font-size:30px;
+}
+
+.pack24 .small{
+  padding-left: 5px;
+  font-size: 15px;
+  color:#ffffff;
+}
+
+.label2{
+  position:absolute;
+  top: 220px;
+  right: 15px;
+  color:#ffffff;
+  font-family:'Open Sans';
+  font-size: 10px;
+  font-weight:900;
+  text-align: right;
+}
+
+.squiggle{
+  display:flex;
+  position:absolute;
+  right:0px;
+  top:107px;
+  z-index: 3;
+}
+.semicircle{ 
+  height: 8px; 
+  width: 17.5px; 
+  border-radius: 0 0 15px 15px; 
+  background-color:white; 
+}
+
+.barcode{
+  width:100px;
+  position:absolute;
+  top: 145px;
+  left: 665px;
+  z-index: 2;
+}
+
+.label3 {
+  position:absolute;
+  top: 0px;
+  left: 685px;
+  width: 85px;
+  height: 125px;
+  font-family: 'Roboto';
+  background-color: #70c150;
+  border-bottom-left-radius:50px ;
+  border-bottom-right-radius: 50px;
+  z-index: 2;
+  font-size: 8.5px;
+  padding:0.5px;
+  text-align: center;
+}
+
+.label3 :nth-child(1){
+  font-weight:900;
+}
+.label3 :nth-child(2),
+.label3 :nth-child(3){
+  font-weight: 600;
+}
+
+.stamp {
+  width:75px;
+  border-radius: 50%;
+  position: absolute;
+  left: 690px;
+  top: 50px;
+  z-index: 3;
+}
+
+.logo {
+  width: 55%;
+  position:absolute;
+  top:120px;
+  left:90px;
+  z-index: 3;
+}
